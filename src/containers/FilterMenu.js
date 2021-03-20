@@ -10,9 +10,9 @@ class FilterMenu extends Component {
   render() {
     return (
       <footer className='FilterMenu'>
-        <a id='all' onClick={() => this.props.showAll()}>Show All</a>
-        <a id='active' onClick={() => this.props.filterActive()}>Show Active</a>
-        <a id='completed' onClick={() => this.props.filterCompleted()}>Show Completed</a>
+        <a href='_blank' id='all' onClick={() => this.props.showAll()}>Show All</a>
+        <a href='_blank' id='active' onClick={() => this.props.filterActive()}>Show Active</a>
+        <a href='_blank' id='completed' onClick={() => this.props.filterCompleted()}>Show Completed</a>
       </footer>
     )
   }
