@@ -46,8 +46,10 @@ button {
 }
 
 button:hover {
-  color: red;
+  color: #3f3f55;
+  background-color: white;
   cursor: pointer;
+  box-shadow: 1px 1px 45px #aaa;
 }
 
 ul {
@@ -65,6 +67,10 @@ li {
   cursor: pointer;
   list-style-type: none;
   margin: 10px 0;
+}
+
+li:hover{
+  font-weight: bold;
 }
 
 .App {
@@ -90,6 +96,7 @@ li {
 
 .FilterMenu a:hover {
   color: black;
+  cursor: pointer;
 }
 
 .completed {
